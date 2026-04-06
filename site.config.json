@@ -1,0 +1,95 @@
+{
+  "business": {
+    "name_ar": "بيت النكهات",
+    "name_en": "Bait Al Nakhat",
+    "category": "مطعم",
+    "phone": "+971500000000",
+    "phone_display": "+971 50 000 0000",
+    "whatsapp": "971500000000",
+    "email": "",
+    "address_ar": "دبي، الكرامة، شارع الكويت — بجانب مسجد الكرامة",
+    "address_en": "Dubai, Al Karama, Kuwait Street — next to Al Karama Mosque",
+    "parking_ar": "موقف سيارات مجاني — يتسع لـ ٣٠ سيارة",
+    "parking_en": "Free parking — fits 30 cars",
+    "google_maps_embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.178509!2d55.301!3d25.2532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDE1JzExLjUiTiA1NcKwMTgnMDMuNiJF!5e0!3m2!1sar!2sae!4v1"
+  },
+  "working_hours": [
+    { "day_ar": "السبت", "day_en": "Saturday", "hours": "11 AM - 12 AM" },
+    { "day_ar": "الأحد", "day_en": "Sunday", "hours": "11 AM - 12 AM" },
+    { "day_ar": "الاثنين", "day_en": "Monday", "hours": "11 AM - 12 AM" },
+    { "day_ar": "الثلاثاء", "day_en": "Tuesday", "hours": "11 AM - 12 AM" },
+    { "day_ar": "الأربعاء", "day_en": "Wednesday", "hours": "11 AM - 12 AM" },
+    { "day_ar": "الخميس", "day_en": "Thursday", "hours": "11 AM - 1 AM" },
+    { "day_ar": "الجمعة", "day_en": "Friday", "hours": "1 PM - 12 AM" }
+  ],
+  "working_hours_short": {
+    "weekday_ar": "السبت - الخميس: ١١ ص - ١٢ م",
+    "weekday_en": "Sat - Thu: 11 AM - 12 AM",
+    "friday_ar": "الجمعة: ١ م - ١٢ م",
+    "friday_en": "Fri: 1 PM - 12 AM"
+  },
+  "hero": {
+    "badge_ar": "+١٠٠٠ تقييم — ٤.٩ نجوم",
+    "badge_en": "+1000 Reviews — 4.9 Stars",
+    "headline_ar": "نكهات أصيلة في قلب دبي",
+    "headline_en": "Authentic Flavors in the Heart of Dubai",
+    "subheadline_ar": "أطباق طازجة يومياً — مكونات مختارة بعناية — طعم ما بتنساه أبداً. طبخ على الطريقة الأصلية بأيدي طباخين خبرة.",
+    "subheadline_en": "Daily fresh dishes — carefully selected ingredients — unforgettable taste. Traditional cooking by experienced chefs.",
+    "subtitle_ar": "توصيل سريع — مكونات طازجة يومياً — مناسب للعائلات",
+    "subtitle_en": "Fast delivery — daily fresh ingredients — family friendly"
+  },
+  "about": {
+    "subtitle_ar": "قصة بيت النكهات — من المطبخ لقلبك",
+    "subtitle_en": "The story — from kitchen to heart",
+    "story": [
+      { "ar": "بدأ بيت النكهات سنة ٢٠١٥ كمطعم صغير في الكرامة — كان حلم عائلي بسيط: نقدم أكل عربي أصلي بطعم البيت.", "en": "Started in 2015 as a small restaurant in Al Karama — a simple family dream: to serve authentic Arabic home-style food." },
+      { "ar": "اليوم صرنا واحد من أشهر المطاعم العربية — مش بسبب الدعاية، بسبب الطعم.", "en": "Today we're one of the most loved Arabic restaurants — not because of marketing, but because of taste." },
+      { "ar": "فلسفتنا بالطبخ بسيطة: مكونات طازجة كل يوم، وصفات أصلية، وطباخين عندهم خبرة سنين.", "en": "Our cooking philosophy is simple: daily fresh ingredients, original recipes, and experienced chefs." },
+      { "ar": "كل شي عندنا مدروس — نبي الضيف يحس إنه بعزيمة مش بمطعم.", "en": "Everything is carefully considered — we want our guest to feel like they're at a family feast." }
+    ],
+    "footer_desc_ar": "مطعم عائلي — نقدم أطباق عربية أصيلة بمكونات طازجة يومياً.",
+    "footer_desc_en": "A family restaurant — serving authentic Arabic dishes with daily fresh ingredients."
+  },
+  "dishes": [
+    { "name_ar": "كبسة لحم على نار هادية", "name_en": "Slow-Cooked Lamb Kabsa", "desc_ar": "أرز بسمتي مع لحم غنم طري — مطبوخ على نار هادية ساعات", "desc_en": "Basmati rice with tender lamb — slow-cooked for hours", "price_ar": "٨٥ د.إ", "price_en": "85 AED", "image": "dish-kabsa" },
+    { "name_ar": "مشاوي مشكلة على الفحم", "name_en": "Mixed Charcoal Grill", "desc_ar": "شيش طاووق ولحم وكفتة — مشوية على الفحم الحقيقي", "desc_en": "Chicken, lamb & kofta skewers — real charcoal grilled", "price_ar": "٧٥ د.إ", "price_en": "75 AED", "image": "dish-mashawi" },
+    { "name_ar": "منسف أردني أصلي", "name_en": "Authentic Jordanian Mansaf", "desc_ar": "لحم غنم بلبن الجميد على أرز بالسمنة", "desc_en": "Lamb in jameed yogurt on ghee rice", "price_ar": "٩٥ د.إ", "price_en": "95 AED", "image": "dish-mansaf" },
+    { "name_ar": "كنافة نابلسية بالجبن", "name_en": "Nabulsi Cheese Kunafa", "desc_ar": "كنافة مقرمشة بالجبن الحلو والقطر", "desc_en": "Crispy kunafa with sweet cheese and syrup", "price_ar": "٣٥ د.إ", "price_en": "35 AED", "image": "dish-kunafa" }
+  ],
+  "why_us": [
+    { "icon": "Leaf", "title_ar": "مكونات طازجة كل يوم", "title_en": "Daily Fresh Ingredients", "desc_ar": "خضار ولحوم طازجة توصلنا كل صبح — ما نستخدم شي مجمد أبداً.", "desc_en": "Fresh veggies and meats delivered every morning — we never use frozen." },
+    { "icon": "Flame", "title_ar": "طبخ على الطريقة الأصلية", "title_en": "Traditional Cooking Methods", "desc_ar": "وصفاتنا من أمهاتنا وجداتنا — طبخ على نار هادية.", "desc_en": "Recipes from our mothers and grandmothers — slow-cooked." },
+    { "icon": "ShieldCheck", "title_ar": "نظافة وجودة بدون تنازل", "title_en": "Uncompromised Hygiene", "desc_ar": "مطبخنا مفتوح وتقدر تشوفه — سلامتك أولويتنا.", "desc_en": "Our kitchen is open for you to see — your safety is our priority." },
+    { "icon": "Truck", "title_ar": "توصيل سريع", "title_en": "Fast Delivery", "desc_ar": "نوصلك طلبك خلال ٣٠-٤٥ دقيقة ساخن وطازج.", "desc_en": "We deliver in 30-45 minutes, hot and fresh." },
+    { "icon": "Users", "title_ar": "مكان مناسب للعائلات", "title_en": "Family-Friendly", "desc_ar": "أقسام عائلية خاصة وكراسي أطفال وقائمة أطفال مميزة.", "desc_en": "Private family sections, kids chairs, and a special kids menu." },
+    { "icon": "UtensilsCrossed", "title_ar": "خيارات صحية", "title_en": "Diet-Friendly Options", "desc_ar": "أطباق صحية ومشوية وخيارات بدون جلوتين.", "desc_en": "Healthy grilled options and gluten-free choices." }
+  ],
+  "testimonials": [
+    { "name_ar": "محمد", "name_en": "Mohammed", "text_ar": "أطيب كبسة — صرت أطلب كل أسبوع. اللحم يذوب بالفم.", "text_en": "Best kabsa — I order every week. The meat melts in your mouth.", "rating": 5 },
+    { "name_ar": "فاطمة", "name_en": "Fatima", "text_ar": "المكان نظيف والأكل طازج — ما بيخيب أبداً.", "text_en": "Clean place and fresh food — never disappoints.", "rating": 5 },
+    { "name_ar": "أحمد", "name_en": "Ahmed", "text_ar": "الخدمة سريعة والطعم ولا أروع.", "text_en": "Fast service and amazing taste.", "rating": 5 },
+    { "name_ar": "نورة", "name_en": "Noura", "text_ar": "أحسن مكان للعزايم والمناسبات.", "text_en": "Best place for gatherings.", "rating": 5 },
+    { "name_ar": "خالد", "name_en": "Khaled", "text_ar": "المنسف يذكرني بأكل أمي — طعم أصلي.", "text_en": "The mansaf reminds me of my mother's cooking — authentic taste.", "rating": 5 }
+  ],
+  "delivery": {
+    "areas_ar": "الكرامة — بر دبي — ديرة — البرشاء — جميرا",
+    "areas_en": "Al Karama — Bur Dubai — Deira — Al Barsha — Jumeirah",
+    "apps_ar": "طلبات — ديليفرو — نون",
+    "apps_en": "Talabat — Deliveroo — Noon"
+  },
+  "cta": {
+    "hungry_ar": "جوعان؟ اطلب الآن أو احجز طاولتك",
+    "hungry_en": "Hungry? Order Now or Reserve Your Table",
+    "subtitle_ar": "لقمة وتدعيلنا — جرب وما بتندم",
+    "subtitle_en": "One bite and you'll thank us — try it, no regrets"
+  },
+  "social": {
+    "instagram": "https://instagram.com",
+    "snapchat": "https://snapchat.com",
+    "tiktok": "https://tiktok.com"
+  },
+  "seo": {
+    "title": "بيت النكهات — مطعم عربي أصيل",
+    "description": "مطعم عربي أصيل. أطباق طازجة يومياً، مشاوي على الفحم، كبسة، منسف. توصيل سريع."
+  }
+}

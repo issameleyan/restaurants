@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 25% 97%;
+    --foreground: 20 20% 12%;
+
+    --card: 30 20% 95%;
+    --card-foreground: 20 20% 12%;
+
+    --popover: 30 25% 97%;
+    --popover-foreground: 20 20% 12%;
+
+    --primary: 8 65% 45%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 30 30% 92%;
+    --secondary-foreground: 20 20% 15%;
+
+    --muted: 30 15% 90%;
+    --muted-foreground: 20 10% 45%;
+
+    --accent: 38 70% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 30 20% 88%;
+    --input: 30 20% 88%;
+    --ring: 8 65% 45%;
+
+    --radius: 0.75rem;
+
+    --olive: 85 35% 35%;
+    --olive-light: 85 30% 50%;
+    --warm-brown: 25 50% 30%;
+    --gold: 38 70% 50%;
+    --gold-light: 40 60% 75%;
+    --cream: 30 25% 97%;
+    --cream-dark: 30 20% 92%;
+    --deep-red: 8 65% 45%;
+    --deep-red-dark: 8 70% 30%;
+
+    --hero-gradient: linear-gradient(135deg, hsl(8 65% 45% / 0.85), hsl(25 50% 30% / 0.9));
+    --cta-gradient: linear-gradient(135deg, hsl(8 65% 45%), hsl(25 50% 30%));
+    --gradient-gold: linear-gradient(135deg, hsl(38 70% 50%), hsl(8 65% 45%));
+    --shadow-soft: 0 4px 20px hsl(8 65% 45% / 0.12);
+    --shadow-card: 0 8px 30px hsl(20 15% 15% / 0.06);
+    --section-alt: 30 30% 96%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    font-family: 'Tajawal', sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  html[dir="rtl"] {
+    direction: rtl;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .text-gradient-primary {
+    background: var(--cta-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .bg-gradient-hero {
+    background: var(--hero-gradient);
+  }
+
+  .bg-gradient-cta {
+    background: var(--cta-gradient);
+  }
+
+  .bg-gradient-gold {
+    background: var(--gradient-gold);
+  }
+
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+
+  .section-padding {
+    @apply px-4 py-16 md:px-8 md:py-24 lg:px-16;
+  }
+
+  .container-tight {
+    @apply mx-auto max-w-6xl;
+  }
+
+  .bg-section-alt {
+    background-color: hsl(var(--section-alt));
+  }
+}
